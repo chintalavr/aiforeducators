@@ -5,6 +5,11 @@
 - Optional: Account (Microsoft account for Copilot, OpenAI account for ChatGPT).
 
 ## 2. Accessing the Sites
+1. Open preferred browser mentioned in the prerequisites.
+2. Navigate to chosen AI tool URL.
+4. (Optional) Sign in or create an account.
+5. Locate the message box.
+
 - ChatGPT: https://chat.openai.com or https://chatgpt.com
 
     ![Chat GPT](./media/chat-gpt.png)
@@ -13,21 +18,9 @@
 
     ![Microsoft Copilot](./media/microsoft-copilot.png)
 
-- Copilot in Bing: https://www.bing.com (select Copilot / Chat icon)
-
-    ![Microsoft Copilot](./media/bing.png)
-
-## 3. Basic Steps (Any Browser)
-1. Open preferred browser.
-2. Navigate to chosen AI tool URL.
-3. Accept or adjust cookie/consent prompts (if shown).
-4. (Optional) Sign in or create an account.
-5. Locate the message box.
-6. Type a clear prompt or question.
-7. Press Enter (or click Send).
-8. Review response; refine or ask follow‑ups.
-9. Use conversation history (if signed in) to revisit answers.
-10. Copy, export, or summarize results as needed.
+6. Type a clear prompt or question and press Enter (or click Send).
+7. Review response; refine or ask follow‑ups.
+8. Use conversation history (if signed in) to revisit answers.
 
 ## 4. Writing an Effective First Prompt
 - Be specific: “Summarize this paragraph for grade 8 level.”
