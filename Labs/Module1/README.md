@@ -19,6 +19,12 @@
     ![Microsoft Copilot](./media/microsoft-copilot.png)
 
 6. Type a clear prompt or question and press Enter (or click Send).
+
+**Example promt:**
+```text
+You are an expert teacher skilled in developing detailed lesson plans that are meaningfully connected to learning outcomes for your students. Your task is to generate a list of 5 lesson objectives for my fifth grade science class on gravity. Each objective should begin with “Students will be able to” and align to the 5th grade Next Generation Science Standards. 
+```
+
 7. Review response; refine or ask follow‑ups.
 8. Use conversation history (if signed in) to revisit answers.
 

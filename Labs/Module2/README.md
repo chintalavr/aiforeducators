@@ -1,6 +1,6 @@
-# Lab: Iteratively Engineering a Prompt for 6th Grade Earth Science (5-Step Version)
+# Lab: Iteratively Engineering a Prompt for lesson planning
 
-**Objective:** Compress the prompt refinement workflow into 5 focused iterations ending in a high-quality multi-lesson generation prompt.
+**Objective:** Iterate the prompt refinement workflow to achieve a high-quality prompt for effective lesson planning.
 
 ## Step 1: Baseline Prompt (naive)
 **Prompt v1:**
