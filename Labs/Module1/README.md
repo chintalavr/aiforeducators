@@ -20,7 +20,7 @@
 
 6. Type a clear prompt or question and press Enter (or click Send).
 
-**Example prompt:**
+**Example prompt**
 ```text
 You are an expert teacher skilled in developing detailed lesson plans that are meaningfully connected to learning outcomes for your students. Your task is to generate a list of 5 lesson objectives for my fifth grade science class on gravity. Each objective should begin with “Students will be able to” and align to the 5th grade Next Generation Science Standards. 
 ```
@@ -103,8 +103,6 @@ Establish a creative baseline. This prompt is intentionally broad, encouraging g
 
 **🔹 Prompt 2: Add Instructional Components**
 
-**Prompt:**
-
 ```text
 You are an expert 9th grade science teacher. Create 3 connected lesson plans for a 9th grade Earth science unit. Each lesson should be 40 minutes long and focus on one or more of the following: plate tectonics, earthquakes, volcanoes, cyclones, tsunamis, floods, landslides, and topography.
 Each lesson plan should include:
@@ -122,8 +120,6 @@ A short outline that includes direct instruction, an engaging activity, and a cl
 Adds essential structure for lesson planning. Still flexible, but pushes the AI to think in terms of lesson flow and learning targets.
 
 **🔹 Prompt 3: Include NGSS Standards & Assessment**
-
-**Prompt:**
 
 ```text
 You are an expert 9th grade science teacher. Develop 3 sequential, 40-minute Earth science lesson plans that align with NGSS high school standards. Topics should include plate tectonics, earthquakes, volcanoes, cyclones, tsunamis, floods, landslides, and topography.
@@ -151,7 +147,6 @@ Introduces rigor and accountability by requiring standards alignment and assessm
 
 **🔹 Prompt 4: Emphasize Cohesion, Purpose, and Reflection**
 
-**Prompt:**
 ```text
 You are an expert 9th grade science teacher. Design 3 sequential Earth science lesson plans, each 40 minutes long, for a unit focused on topics such as plate tectonics, earthquakes, volcanoes, cyclones, tsunamis, floods, landslides, and topography. Lessons must build upon one another to develop a comprehensive understanding of Earth’s dynamic systems.
 Each lesson should:

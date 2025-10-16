@@ -11,15 +11,7 @@ By end of lab you will:
 - Analyze simple behavior / engagement data with AI.
 - Draft mitigation strategies for AI misuse.
 
-## 3. Prerequisites
-- Sample student artifacts (real or synthetic).
-- Access to a vetted AI tool (chat or grading assistant).
-- Spreadsheet or LMS export (for behavior data task).
-- Institutional academic integrity policy.
-
----
-
-## 4. Lab Workflow (Do in Order)
+## 3. Lab Steps
 
 ### Step 1: AI-Assisted Assessments
 **AI-Assisted Assessment Prompt**
@@ -34,7 +26,7 @@ Include elements like feedback mechanisms, role-playing, and peer teaching so my
 
 The AI chatbot is only to be used to creatively enhance the students’ learning experience; do not include instructions for the chatbot to research information or fact check [SPECIFIC TOPIC].
 
-**Example Prompt:**
+**Example Prompt**
 
 ```text
 You are an expert educator and curriculum writer, skilled at developing thoughtful and creative assessments that effectively evaluate your students’ learning. Your task is to design an assessment to evaluate what my 8th grade social studies class students have learned in our unit on The Great Depression and The New Deal. Follow these directions:
@@ -110,7 +102,7 @@ You are an expert teacher, skilled in producing detailed student assessments tha
 You are an expert teacher, skilled in producing detailed student assessments that effectively demonstrate their learning. Your task is to create a 20-question, fill-in-the-blank quiz, based on the following text from the classroom textbook, for my 5th grade social studies students learning about Colonial America. Include key concepts, vocabulary terms, and make sure to cover all parts of the chapter. Provide a word bank for students, and an answer key for the teacher. 
 ```
 
-Additional Prompting Strategies
+**Additional Prompting Strategies**
 
 Ask the chatbot to modify anything it creates to ensure that it is perfect for your students. In this example you could ask, "Add 10 more questions," "Make the questions more challenging," "Make the responses have 5 options instead of 4," "Make the quiz more relatable to 12 year old students" etc.”
 
@@ -144,10 +136,7 @@ You are an expert educational administrator of an urban high school with experti
 
 **Additional Prompting Strategies**
 
-Get specific! The more specific you are with how you’d like your observation formatted the better. If you don’t have a full lesson plan, describe it as clearly as you can. 
-
-Ask the chatbot to create specific strategies for the teacher to move up in his/her proficiency based on the framework.
-
-Enlist the chatbot for help in creating a script to deliver the feedback, particularly if you want to maintain a specific tone or make sure to mention specific points from the lesson.
-
-Use the chatbot to generate ideas/create follow up lesson plans for the teacher to use, and make sure the chatbot incorporates the strategies the teacher needs to work on in the lesson plans. 
+- Get specific! The more specific you are with how you’d like your observation formatted the better. If you don’t have a full lesson plan, describe it as clearly as you can. 
+- Ask the chatbot to create specific strategies for the teacher to move up in his/her proficiency based on the framework.
+- Enlist the chatbot for help in creating a script to deliver the feedback, particularly if you want to maintain a specific tone or make sure to mention specific points from the lesson.
+- Use the chatbot to generate ideas/create follow up lesson plans for the teacher to use, and make sure the chatbot incorporates the strategies the teacher needs to work on in the lesson plans.
