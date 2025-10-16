@@ -20,7 +20,7 @@
 
 6. Type a clear prompt or question and press Enter (or click Send).
 
-**Example promt:**
+**Example prompt:**
 ```text
 You are an expert teacher skilled in developing detailed lesson plans that are meaningfully connected to learning outcomes for your students. Your task is to generate a list of 5 lesson objectives for my fifth grade science class on gravity. Each objective should begin with “Students will be able to” and align to the 5th grade Next Generation Science Standards. 
 ```
@@ -91,17 +91,21 @@ Ready to explore: pick one tool, sign in for persistence, start with a structure
 ## Let's practice using prompts
 Each version builds in complexity and clarity, with a focus on lesson design, NGSS alignment, and instructional strategy appropriate for 9th grade Earth science.
 
-🔹 Prompt 1: Idea Generation (Open-Ended)
+**🔹 Prompt 1: Idea generation (open-ended)**
 
 Prompt:
+```text
 You are an expert 9th grade science teacher. Come up with 3 lesson ideas for a unit on Earth science. The lessons should build on each other and focus on topics like plate tectonics, earthquakes, volcanoes, cyclones, tsunamis, floods, landslides, and topography. Each lesson should be 40 minutes long and appropriate for 9th grade students.
+```
 
-💡 Purpose of Prompt 1:
+**💡 Purpose of the prompt:**
 Establish a creative baseline. This prompt is intentionally broad, encouraging general idea generation without requiring a detailed structure.
 
-🔹 Prompt 2: Add Instructional Components
+**🔹 Prompt 2: Add Instructional Components**
 
-Prompt:
+**Prompt:**
+
+```text
 You are an expert 9th grade science teacher. Create 3 connected lesson plans for a 9th grade Earth science unit. Each lesson should be 40 minutes long and focus on one or more of the following: plate tectonics, earthquakes, volcanoes, cyclones, tsunamis, floods, landslides, and topography.
 Each lesson plan should include:
 
@@ -112,13 +116,16 @@ Learning objectives
 A list of key vocabulary
 
 A short outline that includes direct instruction, an engaging activity, and a closure or summary of learning
+```
 
-💡 Purpose of Prompt 2:
+**💡 Purpose of the prompt:**
 Adds essential structure for lesson planning. Still flexible, but pushes the AI to think in terms of lesson flow and learning targets.
 
-🔹 Prompt 3: Include NGSS Standards & Assessment
+**🔹 Prompt 3: Include NGSS Standards & Assessment**
 
-Prompt:
+**Prompt:**
+
+```text
 You are an expert 9th grade science teacher. Develop 3 sequential, 40-minute Earth science lesson plans that align with NGSS high school standards. Topics should include plate tectonics, earthquakes, volcanoes, cyclones, tsunamis, floods, landslides, and topography.
 Each lesson must include:
 
@@ -137,13 +144,15 @@ A hands-on or inquiry-based activity
 A closure that summarizes student learning
 
 A method for assessing student understanding (formative or summative)
+```
 
-💡 Purpose of Prompt 3:
+**💡 Purpose of the prompt:**
 Introduces rigor and accountability by requiring standards alignment and assessment, moving the AI closer to producing instructionally sound materials.
 
-🔹 Prompt 4: Emphasize Cohesion, Purpose, and Reflection
+**🔹 Prompt 4: Emphasize Cohesion, Purpose, and Reflection**
 
-Prompt:
+**Prompt:**
+```text
 You are an expert 9th grade science teacher. Design 3 sequential Earth science lesson plans, each 40 minutes long, for a unit focused on topics such as plate tectonics, earthquakes, volcanoes, cyclones, tsunamis, floods, landslides, and topography. Lessons must build upon one another to develop a comprehensive understanding of Earth’s dynamic systems.
 Each lesson should:
 
@@ -163,8 +172,9 @@ A closure that includes reflection, synthesis, or real-world application
 
 Include a formative or summative assessment
 Also explain how each lesson connects to the previous one and contributes to the overall goals of the unit.
+```
 
-💡 Purpose of Prompt 4:
+**💡 Purpose of the prompt:**
 This is the final, fully enhanced prompt—clear, rigorous, and instructionally rich. It asks for cohesion across lessons, depth of student engagement, and real-world relevance while staying aligned to standards.
 
 🧪 How to Use These Prompts in a Lab Exercise:
@@ -173,17 +183,3 @@ Round	Prompt	Focus	Activity
 2	Prompt 2	Structured Lesson Components	Evaluate the presence of objectives, vocabulary, flow. What’s still missing?
 3	Prompt 3	Standards & Assessment	Discuss the role of standards and assessment. Are the lessons now usable?
 4	Prompt 4	Cohesion & Purpose	Examine how lessons build on each other. Discuss how clarity improves with each iteration.
-### Create Unit or Learning Objectives
-https://www.aiforeducation.io/prompts/learning-objectives
-
-### Create a Lesson Plan
-https://www.aiforeducation.io/prompts/lesson-plans
-
-### Personalize quizzes
-https://www.aiforeducation.io/prompts/personalize-quizzes
-
-### Student assessments
-https://www.aiforeducation.io/prompts/ai-assisted-assessments
-
-### Writing assignments
-https://www.aiforeducation.io/prompts/in-class-writing-assignments

@@ -27,3 +27,20 @@ Basic computer use; no prior coding required. Devices with browser access recomm
 
 ### Takeaways
 Participants leave with actionable lesson planning aids, assessment exemplars, ethical guidelines, and a roadmap for incremental AI adoption aligned to student learning goals.
+
+## Prompt Libraries for reference
+
+### Create Unit or Learning Objectives
+https://www.aiforeducation.io/prompts/learning-objectives
+
+### Create a Lesson Plan
+https://www.aiforeducation.io/prompts/lesson-plans
+
+### Personalize quizzes
+https://www.aiforeducation.io/prompts/personalize-quizzes
+
+### Student assessments
+https://www.aiforeducation.io/prompts/ai-assisted-assessments
+
+### Writing assignments
+https://www.aiforeducation.io/prompts/in-class-writing-assignments

@@ -1,122 +1,153 @@
-# Module 3 Lab: Use Generative AI to generate images
+# Module 3 Lab: Assessing Student Assignments with AI
 
-## Objective
-Learn to iteratively refine an image generation prompt to produce a clear, age‑appropriate book cover illustration.
+## 1. Lab Objective
+Enable teachers to responsibly apply AI tools to evaluate student work, design resilient assessments, interpret learning evidence, and maintain academic integrity.
 
-## Story Summary (Original Content)
-Title: Luna and the Lost Star Map  
-Summary: Luna, a curious fourth-grade girl who loves stargazing, finds a faded star map in her grandma’s attic. With her friendly robot firefly, Spark, she follows glowing clues through a meadow, a whispering forest, and a hilltop telescope dome to help a dim star return to the sky. She learns persistence and teamwork.
+## 2. Outcomes
+By end of lab you will:
+- Distinguish effective vs AI-dependent (weak) assignments.
+- Generate AI support prompts for rubric-based assessment.
+- Build and refine rubrics for multiple assessment types.
+- Analyze simple behavior / engagement data with AI.
+- Draft mitigation strategies for AI misuse.
 
-Key Visual Elements
-- Main character: Luna (8–10 yrs, curly hair in a ponytail, purple hoodie, denim jeans, bright sneakers, curious expression)
-- Companion: Tiny robot firefly (metallic body, soft teal glow)
-- Setting: Twilight meadow + faint Milky Way + old brass telescope + one dim star brightening
-- Mood: Wonder, adventure, hopeful
-- Style: Whimsical, vibrant, clean, suitable for children’s book cover
+## 3. Prerequisites
+- Sample student artifacts (real or synthetic).
+- Access to a vetted AI tool (chat or grading assistant).
+- Spreadsheet or LMS export (for behavior data task).
+- Institutional academic integrity policy.
 
-## Lab Steps
+---
 
-### Step 1: Use Baseline Prompt
-Purpose: Quick concept without detail.  
-Prompt 1: A girl and a glowing firefly in a field at twilight.
+## 4. Lab Workflow (Do in Order)
 
-Observe: Likely generic, missing story identity.
+### Step 1: AI-Assisted Assessments
+**AI-Assisted Assessment Prompt**
 
-### Step 2: Add Core Subjects + Setting
-Prompt 2: Curious fourth-grade girl with a small glowing robot firefly companion standing in a twilight meadow under a starry sky.
+You are an expert educator and curriculum writer, skilled at developing thoughtful and creative assessments that effectively evaluate your students’ learning. Your task is to design an assessment to evaluate what [GRADE LEVEL AND SUBJECT] students have learned in our unit on [TOPIC]. Follow these directions:
 
-Improvement: Age context + companion + environment.
+Include questions about: [SPECIFIC CONTENT]. 
 
-### Step 3: Add Action + Focal Object
-Prompt 3: Curious fourth-grade girl examining an old rolled star map beside a small glowing robot firefly in a twilight meadow under a starry sky.
+Act as a brainstorming partner and make the assessment collaborative. 
 
-Now story object (map) introduced.
+Include elements like feedback mechanisms, role-playing, and peer teaching so my students can incorporate an AI chatbot in their assessment. 
 
-### Step 4: Add Composition + Lighting + Mood
-Prompt 4: Whimsical children’s book cover illustration, centered girl kneeling and unrolling a faded star map that glows faintly, small teal-glowing robot firefly hovering at her shoulder, twilight meadow with soft firefly lights, emerging stars, gentle rim light, hopeful mood.
+The AI chatbot is only to be used to creatively enhance the students’ learning experience; do not include instructions for the chatbot to research information or fact check [SPECIFIC TOPIC].
 
-Adds mood and layout.
+**Example Prompt:**
 
-### Step 5: Add Character Styling + Color Palette
-Prompt 5: Whimsical children’s book cover illustration, Luna (brown curly ponytail, purple hoodie, denim jeans, bright sneakers) kneeling, unrolling a faded glowing star map; small teal-glowing metallic robot firefly Spark hovering; twilight meadow with tall soft grasses; early stars and faint Milky Way; warm-purple to deep-indigo sky gradient; hopeful adventurous mood.
+```text
+You are an expert educator and curriculum writer, skilled at developing thoughtful and creative assessments that effectively evaluate your students’ learning. Your task is to design an assessment to evaluate what my 8th grade social studies class students have learned in our unit on The Great Depression and The New Deal. Follow these directions:
 
-Adds specific look.
+Include questions about: their historical context and causes; cultural responses; and any societal and political effects and consequences. 
 
-### Step 6: Add Secondary Prop + Depth + Telescope
-Prompt 6: Whimsical vibrant children’s book cover illustration, Luna (brown curly ponytail, purple hoodie, denim jeans, bright sneakers) unrolling a softly glowing faded star map; tiny teal-glowing metallic robot firefly Spark hovering; old brass telescope on tripod in background near a low hill; twilight meadow, soft depth of field, faint Milky Way and one dim star starting to brighten; warm inviting lighting, sense of wonder.
+Act as a brainstorming partner and make the assessment collaborative. 
 
-Adds telescope and depth.
+Include elements like feedback mechanisms, role-playing, and peer teaching so my students can incorporate an AI chatbot in their assessment. 
 
-### Step 7: Refine for Clean Output + Negative Guidance
-Prompt 7 (Refined): Whimsical vibrant children’s book cover illustration, clean linework, Luna (8–10 year-old girl, brown curly ponytail, purple hoodie, denim jeans, bright sneakers) kneeling in a twilight meadow unrolling a softly glowing faded star map; tiny teal-glowing metallic robot firefly Spark hovering near her shoulder; old brass telescope on tripod behind her; faint Milky Way arc and a single dim star beginning to brighten; warm rim light, soft luminous firefly particles, hopeful adventurous mood, centered composition, space above for title.  
-Negative (if model supports): no text, no watermark, no extra characters, no distortion, no realism, no dark horror tone.
+The AI chatbot is only to be used to creatively enhance the students’ learning experience; do not include instructions for the AI chatbot to research information or fact check historical events.
+```
 
-### Step 8: Style Variant Experiments (Choose One)
-Variant A (Painterly): soft painterly gouache texture, gentle brush strokes.  
-Variant B (Flat vector): crisp flat vector shapes, bold simple color blocks.  
-Variant C (Watercolor): light watercolor wash, subtle gradients, paper texture.  
+**Additional Prompting Strategies**
 
-Add to prompt 7 as desired.
+Have the chatbot tailor the assessment to your students’ needs. Include specific standards for your grade/class, ask for questions to be more/less challenging, have the chatbot make the assessment a specific duration of time, etc. 
 
-### Step 9: Aspect Ratio + Output Parameters (Example)
-- Aspect: 3:4 (portrait) or 2:3 (book cover mock)
-- Guidance/CFG: moderate (e.g., 7–9) for balance
-- Steps: standard (e.g., 25–35) depending on model
-- Seed: Save seed for reproducibility
+Ask the chatbot to include specific questions if you already have ideas. For example, “Have the chatbot role play with my students as FDR; the chatbot will be the former president and students can ask him questions about his experience.”  
 
-Example Full Prompt (Consolidated):
-Whimsical vibrant children’s book cover illustration, clean linework, soft painterly gouache texture, Luna (8–10 year-old girl, brown curly ponytail, purple hoodie, denim jeans, bright sneakers) kneeling in a twilight meadow unrolling a softly glowing faded star map; tiny teal-glowing metallic robot firefly Spark hovering near her shoulder; old brass telescope on tripod behind her; faint Milky Way arc and a single dim star beginning to brighten; warm rim light, soft luminous firefly particles, hopeful adventurous mood, centered composition, space above for title.  
-Negative: no text, no watermark, no extra characters, no distortion, no realism, no dark horror tone.  
-Aspect ratio: 3:4.
+Enlist the chatbot to make the assessment more relatable to your students or to your demographic. Ask, “Can you make this more relevant for 14 year olds who live in a major city and are interested in social media and video games?” 
 
-### Step 10: Evaluate Outputs
-Checklist:
-- Luna clearly child, friendly and age-appropriate
-- Map glows subtly (not overpowering)
-- Firefly robot readable (not generic insect)
-- Telescope present but not dominant
-- Space for title free of clutter
-- Mood = hopeful wonder (not dark)
+Use the chatbot for ideas to incorporate multidisciplinary assessment questions. In this example, students could write historical fiction set in the Great Depression, they could evaluate the economic impact, analyze migration patterns, create and study artwork from that era, etc.
 
-If issues appear:
-- Character too old: add youthful round face, child proportions.
-- Map too bright: reduce glow, soft subtle light.
-- Missing telescope: specify "visible old brass telescope on tripod to the left/right".
-- Sky too busy: specify sparse stars.
+### Step 2: Rubric Prompt
 
-### Step 11: Iterative Tweaks Examples
-Problem: Firefly looks like real insect.  
-Add: tiny metallic robot firefly with segmented chrome body and soft teal LED glow.  
-Problem: Colors dull.  
-Add: vibrant harmonious color palette, gentle complementary purples and teals.  
-Problem: Cluttered foreground.  
-Add: minimal foreground, clear open space around main subjects.
+**Rubric Prompt**
 
-### Step 12: (Optional) Add Safe Variation Seeds
-Generate 3–5 seeds, record: seed, prompt version, any changes.
+You are an expert teacher and curriculum writer, skilled in creating assessments and evaluating student work. Your task is to create a rubric for my [GRADE LEVEL AND SUBJECT] class studying [TOPIC]. My students are completing [ASSIGNMENT TITLE], in which they [ASSIGNMENT DESCRIPTION]. Format the rubric as a chart and include a 5 point scale. 
 
-Seed Log Template:
-- Seed 10342 / Prompt 7A / Notes: Firefly shape unclear.
-- Seed 10343 / Prompt 7A + metallic detail / Notes: Accept.
-- Seed 10344 / Prompt 7C (watercolor) / Notes: Colors soft, keep.
+**Example Prompt**
 
-## Student Tasks
-1. Run Prompt 1 and save output.  
-2. Progress through prompts 2–7; compare differences.  
-3. Choose a style variant (A/B/C).  
-4. Produce final cover image with consolidated prompt.  
-5. Complete evaluation checklist and log adjustments.  
-6. Submit: final prompt, final image, iteration log (3+ versions), short reflection (3 sentences max).
+```text
+You are an expert teacher and curriculum writer, skilled in creating assessments and evaluating student work. Your task is to create a rubric for my 5th grade science class studying engineering. My students are doing a STEM experiment, the “egg drop challenge,” in which they use specific materials to design and build a container to protect the egg from cracking as it is dropped from increasingly higher heights. Format the rubric as a chart and include a 5 point scale.
+```
 
-## Reflection Guide (Answer Briefly)
-- Which refinement step made the biggest quality jump?  
-- What single descriptor most improved clarity?  
-- How did negative prompting help?
+### Setp 3: Rubric for AI-Assisted Assignment
 
-## Deliverables
-- Final prompt text
-- Image file(s)
-- Iteration log (table or list)
-- Reflection answers
+Act as an experienced [TYPE OF TEACHER], skilled at giving targeted, actionable feedback with expertise in using generative AI in the classroom. Create a [#] point rubric for my [GRADE LEVEL AND SUBJECT} that assesses [ASSIGNMENT DESCRIPTION]. Take into account in the rubric that the students were allowed to use generative AI for [DESCRIPTION OF TASKS STUDENTS CAN USE GENAI]. Include a criteria on the appropriate citing of generative AI using [CITATION STYLE].
 
-End of lab.
+**Example Prompt**
+
+```text
+Act as an experienced high school English teacher, skilled at giving targeted, actionable feedback with expertise in using generative AI in the classroom. Create a 4 point rubric for my 11th grade English class that assesses a presentation on rhetorical devices in famous political speeches from the 21st century. Take into account in the rubric that the students were allowed to use generative AI for initial brainstorming, refining their ideas, and creating imagery. Include a criteria on the appropriate citing of generative AI using MLA format.
+```
+
+**Additional Prompting Strategies**
+
+Enlist the chatbot to include which criteria you’d like to include in your rubric - the more specific you can be in your prompt, the better. In the egg example you could say, “Include design, creativity, presentation, and 2 other categories for a total of 5 criteria students will be evaluated on.”  
+
+Have the chatbot change the format of the rubric to a list or checklist depending on what works best for your assignment.
+
+Ask the chatbot for help in the next step, as well. Use it to create feedback for students who may have struggled with the project, particularly in specific categories. 
+
+Use the chatbot to generate the rubric in advance and pass it out to students. If there is a particular area students seem unprepared for, as a class, have the chatbot generate ideas for how they can practice and prepare.
+
+### Step 4: Quiz Prompt without Content
+
+You are an expert teacher, skilled in producing detailed student assessments that effectively demonstrate their learning. Your task is to create a [TYPE] quiz for [GRADE LEVEL AND SUBJECT] students learning about [TOPIC]. Include [INSERT SKILLS]. Provide an answer key for the teacher. 
+
+**Example Prompt**
+
+```text
+You are an expert teacher, skilled in producing detailed student assessments that effectively demonstrate their learning. Your task is to create a 25-question, multiple-choice quiz for my 5th grade social studies students learning about Colonial America. Include key concepts, vocabulary terms, and relevant timelines, geography, and historical outcomes. Provide an answer key for the teacher. 
+```
+
+### Step 5: Quiz Prompt with Content (for ChatGPT 4 or Claude)
+
+You are an expert teacher, skilled in producing detailed student assessments that effectively demonstrate their learning. Your task is to create a [TYPE] quiz, based on the following [TEXT / VIDEO TRANSCRIPT], for [GRADE LEVEL AND SUBJECT] students learning about [TOPIC]. Include [INSERT SKILLS]. OPTIONAL: INCLUDE [PAGES / VIDEO TIMES YOU WANTED COVERED]. Provide a word bank for students (OPTIONAL: IF USING A FILL-IN-THE-BLANK QUIZ), and an answer key for the teacher. 
+
+**Example Prompt**
+
+```text
+You are an expert teacher, skilled in producing detailed student assessments that effectively demonstrate their learning. Your task is to create a 20-question, fill-in-the-blank quiz, based on the following text from the classroom textbook, for my 5th grade social studies students learning about Colonial America. Include key concepts, vocabulary terms, and make sure to cover all parts of the chapter. Provide a word bank for students, and an answer key for the teacher. 
+```
+
+Additional Prompting Strategies
+
+Ask the chatbot to modify anything it creates to ensure that it is perfect for your students. In this example you could ask, "Add 10 more questions," "Make the questions more challenging," "Make the responses have 5 options instead of 4," "Make the quiz more relatable to 12 year old students" etc.”
+
+Use specific learning objectives if you have them. You can say, “Make sure each question aligns to these learning objectives.” 
+
+Enlist the chatbot to help create study guides or other materials to help students study and prepare for the quiz. "Create a study guide to help my 5th grade students prepare for this quiz."
+
+Ask the chatbot how it can help you make the quiz more accessible to students with special needs. 
+
+Have the chatbot help you create feedback, such as model answers for any open-ended questions, or correct answer explanations, or even a rubric for a more detailed assessment.
+
+### Step 6: Classroom Observation Prompt (Simplified)
+
+You are an expert educational administrator of a [SCHOOL TYPE] with expertise in providing actionable feedback to teachers based on classroom observations. Your task is to create an observation report using [INSERT FRAMEWORK]. I will provide you with the lesson plan, and your task is to [RATE THE FOLLOWING COMPONENTS / PROVIDE ACTIONABLE FEEDBACK / ANALYZE THIS PART OF THE OBSERVATION / ETC]. This is the lesson plan: [LESSON CONTENT].
+
+**Example Prompt (Simplified)**
+
+```text
+You are an expert educational administrator of an independent middle school with expertise in providing actionable feedback to teachers based on classroom observations. Your task is to create an observation report using the Danielson Framework. I will provide you with the lesson plan, and your task is to analyze the use of assessment in the instruction based on the lesson. This is the lesson plan: [CUT AND PASTE LESSON CONTENT].
+```
+
+### Step 7: Classroom Observation Prompt (Detailed)
+
+You are an expert educational administrator of a [SCHOOL TYPE] with expertise in providing actionable feedback to teachers based on classroom observations. Your task is to create an observation report using [INSERT FRAMEWORK]. I will provide you with the lesson plan, and your task is to rate the following components: [OBSERVATION FRAMEWORK ELEMENTS]. Also take into account these classroom notes: [INSERT NOTES]. This is the lesson plan: [LESSON CONTENT].
+
+**Example Prompt (Detailed)**
+
+```text
+You are an expert educational administrator of an urban high school with expertise in providing actionable feedback to teachers based on classroom observations. Your task is to create an observation report using the Danielson Framework. I will provide you with the lesson plan, and your task is to rate the following components; 1a: Demonstrating knowledge of content and pedagogy, 1e: Designing coherent instruction, 3b: Using questioning and discussion techniques, 3c: Engaging students in learning, and 3d: Using assessment in instruction based on the lesson. Also take into account these classroom notes [NOTES]. This is the lesson plan: [CUT AND PASTE LESSON CONTENT].
+```
+
+**Additional Prompting Strategies**
+
+Get specific! The more specific you are with how you’d like your observation formatted the better. If you don’t have a full lesson plan, describe it as clearly as you can. 
+
+Ask the chatbot to create specific strategies for the teacher to move up in his/her proficiency based on the framework.
+
+Enlist the chatbot for help in creating a script to deliver the feedback, particularly if you want to maintain a specific tone or make sure to mention specific points from the lesson.
+
+Use the chatbot to generate ideas/create follow up lesson plans for the teacher to use, and make sure the chatbot incorporates the strategies the teacher needs to work on in the lesson plans. 
