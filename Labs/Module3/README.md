@@ -1,9 +1,9 @@
 # Module 3 Lab: Assessing Student Assignments with AI
 
-## 1. Lab Objective
+## Lab Objective
 Enable teachers to responsibly apply AI tools to evaluate student work, design resilient assessments, interpret learning evidence, and maintain academic integrity.
 
-## 2. Outcomes
+## Outcomes
 By end of lab you will:
 - Distinguish effective vs AI-dependent (weak) assignments.
 - Generate AI support prompts for rubric-based assessment.
@@ -11,7 +11,7 @@ By end of lab you will:
 - Analyze simple behavior / engagement data with AI.
 - Draft mitigation strategies for AI misuse.
 
-## 3. Lab Steps
+## Lab Steps
 
 ### Step 1: AI-Assisted Assessments
 **AI-Assisted Assessment Prompt**

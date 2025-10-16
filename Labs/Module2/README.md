@@ -1,8 +1,17 @@
 # Lab: Iteratively Engineering a Prompt for lesson planning
 
-**Objective** Iterate the prompt refinement workflow to achieve a high-quality prompt for effective lesson planning.
-Let's practice using prompts
-Each version builds in complexity and clarity, with a focus on lesson design, NGSS alignment, and instructional strategy appropriate for 9th grade Earth science.
+## Lab Objective
+Iterate the prompt refinement workflow to achieve a high-quality prompt for effective lesson planning. Each version builds in complexity and clarity, with a focus on lesson design, NGSS alignment, and instructional strategy appropriate for 9th grade Earth science.
+
+## Lab Outcomes
+- Identify deficiencies in an initial vague instructional prompt (missing scope, structure, standards, assessment, engagement).
+- Apply sequential refinement to add scope, sequencing, standards alignment, measurable objectives, pedagogy, and quality criteria.
+- Justify each refinement step by naming improvements and remaining gaps.
+- Construct a comprehensive final prompt specifying role, lesson sequence, NGSS citation, measurable objectives, vocabulary definitions, timed outline, interactive activities, closure synthesis, assessments, materials, progression links, and reuse guidance.
+- Evaluate prompts against rigor, clarity, coherence, engagement, and alignment criteria to form a reusable template for future lesson-planning tasks.
+- Demonstrate an iterative workflow transferable to other educational prompt engineering scenarios.
+
+## Lab Steps
 
 ## Step 1: Baseline Prompt (naive)
 **Prompt v1**

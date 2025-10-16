@@ -1,6 +1,6 @@
 # Lab: Crafting Effective AI Prompts for 7th Grade STEM Assessment Assets
 
-## 1. Lab Objective
+## Lab Objective
 
 Design an AI prompt that produces accessible, family‑friendly communication assets (email responses, newsletters, Parent Night curriculum presentation, school updates) using clear headings, plain language, defined key terms, and inclusivity features (alt text cues, translation-ready structure) to strengthen equitable family engagement and understanding of STEM learning.
 
@@ -51,6 +51,7 @@ Summary: [INSERT INFORMATION]
 Write the update in a [DESIRED TONE].   
 
 **Example Prompt**
+
 ```text
 You are an experienced school leader and expert communicator, proficient in crafting compelling messages that effectively convey information to school stakeholders. Your task is to write a school update letter for my middle school families. Include a brief introduction, a section on Policy Changes, a section for Important Dates, and a final paragraph/summary. Include the following information in each section: 
 
