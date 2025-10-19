@@ -171,10 +171,3 @@ Also explain how each lesson connects to the previous one and contributes to the
 
 **💡 Purpose of the prompt:**
 This is the final, fully enhanced prompt—clear, rigorous, and instructionally rich. It asks for cohesion across lessons, depth of student engagement, and real-world relevance while staying aligned to standards.
-
-🧪 How to Use These Prompts in a Lab Exercise:
-Round	Prompt	Focus	Activity
-1	Prompt 1	Creative Idea Generation	Compare the variety of topics suggested. Identify missing structure.
-2	Prompt 2	Structured Lesson Components	Evaluate the presence of objectives, vocabulary, flow. What’s still missing?
-3	Prompt 3	Standards & Assessment	Discuss the role of standards and assessment. Are the lessons now usable?
-4	Prompt 4	Cohesion & Purpose	Examine how lessons build on each other. Discuss how clarity improves with each iteration.
