@@ -1,4 +1,4 @@
-# Lab: Crafting Effective AI Prompts for 7th Grade STEM Assessment Assets
+# Lab: Crafting Effective AI Prompts for Communications
 
 ## Lab Objective
 
